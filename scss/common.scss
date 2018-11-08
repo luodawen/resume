@@ -1,0 +1,87 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, select, textarea, th, td,div,a{margin: 0;padding:0}
+a{
+  text-decoration: none;
+  color: #666;
+}
+//清除浮动
+.cle::after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '\20';
+  clear: both;
+  height: 0;
+}
+
+/*公共图标 strat*/
+.ico {
+  display: inline-block;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+}
+.ico-server-o1,
+.ico-server-o2,
+.ico-server-o3,
+.ico-server-o4,
+.ico-server-o5,
+.ico-server-w1,
+.ico-server-w2,
+.ico-server-w3,
+.ico-server-w4,
+.ico-server-w5,
+.ico-server-w6,
+.ico-server-w7,
+.ico-server-w8 {
+  width: 40px;
+  height: 40px;
+}
+.ico-clock {
+    width: 64px;
+    height: 64px;
+}
+.ico-weixin-app {
+    width: 48px;
+    height: 48px;
+}
+.ico-plus {
+  width: 16px;
+  height: 16px;
+}
+.ico-plus {background-repeat: no-repeat;}
+.ico-clock {background-repeat: no-repeat;}
+.ico-server-o1 {background-repeat: no-repeat;}
+.ico-server-o2 {background-repeat: no-repeat;}
+.ico-server-o3 {background-repeat: no-repeat;}
+.ico-server-o4 {background-repeat: no-repeat;}
+.ico-server-o5 {background-repeat: no-repeat;}
+.ico-plus {background-position: -390px -318px;}
+.ico-server-w8{background-position:0px -134px}
+.ico-server-w7{background-position:-50px -134px}
+.ico-server-w6{background-position:-100px -134px}
+.ico-server-w5{background-position:-194px 0px}
+.ico-server-w4{background-position:-194px -50px}
+.ico-server-w3{background-position:-194px -100px}
+.ico-server-w2{background-position:0px -184px}
+.ico-server-w1{background-position:-50px -184px}
+.ico-server-o5{background-position:-100px -184px}
+.ico-server-o4{background-position:-150px -184px}
+.ico-server-o3{background-position:-244px 0px}
+.ico-server-o2{background-position:-244px -50px}
+.ico-server-o1{background-position:-244px -100px}
+.ico-weixin-app {background-position: -134px -60px;}
+.ico-server-w1 {background-repeat: no-repeat;}
+.ico-server-w2 {background-repeat: no-repeat;}
+.ico-server-w3 {background-repeat: no-repeat;}
+.ico-server-w4 {background-repeat: no-repeat;}
+.ico-server-w5 {background-repeat: no-repeat;}
+.ico-server-w6 {background-repeat: no-repeat;}
+.ico-server-w7 {background-repeat: no-repeat;}
+.ico-server-w8 {background-repeat: no-repeat;}
+.ico-weixin-app {background-repeat: no-repeat;}
+.ico-clock {background-position: 0px 0px;}
+.ico-clock,.ico-weixin-app,.ico-server-o5,
+.ico-server-o4,.ico-server-o3,.ico-server-o2,
+.ico-server-o1,.ico-server-w8, .ico-server-w7,
+.ico-server-w6, .ico-server-w5, .ico-server-w4,
+.ico-server-w3, .ico-server-w2, .ico-server-w1,.ico-plus,.ico-rating {background-image: url("../img/images/common_z.png")}
+/*公共图标 end*/

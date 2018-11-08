@@ -1,0 +1,250 @@
+html body {
+  background: #ccc;
+  min-height: 600px;
+  padding-bottom: 50px;
+}
+
+.clearfix:after{
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+  content: ".";
+}
+.center{
+  margin:0 auto;
+}
+.reg_header_top{
+  width: 100%;
+  height: auto;
+  background: #fff;
+  box-shadow: 1px 1px 5px rgba(98,105,109,0.5);
+}
+.reg_header{
+  width: 980px;
+  height: 60px;
+  padding: 20px 0;
+  color: #333;
+}
+.lh_logo{
+  margin-left: 10px;
+}
+.fl {
+  float: left;
+}
+.logo_link{
+  display: block;
+  width: 400px;
+}
+
+
+.reg_login_link {
+  height: 22px;
+  line-height: 20px;
+  margin-top: 36px;
+  text-align: right;
+}
+.f14 {
+  font-size: 14px;
+}
+.fr {
+  float: right;
+}
+.login_link {
+  width: 49px;
+  height: 22px;
+  background: #ff6a00;
+  border-radius: 2px;
+  color: #fff;
+  margin-left: 6px;
+  display: inline;
+  &:hover{
+    color:#000;
+  }
+}
+.t_c {
+  text-align: center;
+}
+ul{
+  list-style: none;
+}
+
+.reg_main {
+  width: 980px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 1px 1px 5px rgba(98,105,109,0.5);
+  margin-top: 50px;
+}
+
+.reg_nav {
+  width: 980px;
+  li{
+    float: left;
+    height: 56px;
+    line-height: 56px;
+    border-bottom: 1px solid #ddd;
+    color: #8a8a8a;
+  }
+  li.on{
+    border-bottom: 1px solid #ff6a00;
+    color: #ff6a00;
+  }
+}
+
+.t_c {
+  text-align: center;
+}
+.f18 {
+  font-size: 18px;
+}
+.login_user {
+  border-right: 1px dashed #ddd;
+  width: 489px;
+  cursor: pointer;
+}
+.reg_success {
+  width: 490px;
+  cursor: pointer;
+}
+
+.reg_cont {
+  padding: 40px 0;
+}
+
+
+
+.register_infor {
+  width: 400px;
+  margin: 0 auto;
+}
+
+input{
+  outline: none;
+}
+.register_infor{
+  width: 400px;
+  margin: 0 auto;
+  ul{
+    li.input_box{
+      border: 1px solid #ccc;
+      height: 40px;
+      line-height: 40px;
+      padding: 0px 6px;
+      position: relative;
+      cursor: text;
+      zoom: 1;
+      input{
+        border: 0;
+        padding: 0px 6px;
+        width: 350px;
+        height: 40px;
+        line-height: 40px;
+        overflow: hidden;
+        color: #333;
+        margin-left: 2px;
+        cursor: text;
+        font-size: 14px;
+        background: none;
+      }
+      .error_icon{
+        background: url(../img/images/error_icon.png) 0 -50px no-repeat;
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        right: 10px;
+        top: 14px;
+      }
+    }
+    li.error_box{
+      display: block;
+      height: 24px;
+      line-height: 24px;
+      color: #fe564b;
+      overflow: hidden;
+      em{
+        display: block;
+        height: 24px;
+        line-height: 24px;
+        color: #fe564b;
+        overflow: hidden;
+      }
+    }
+    li.security_code {
+      width: 100px;
+    }
+   li.lizi_law{
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    font-size: 14px;
+    a{
+      color: #ff6a00;
+    }
+   }
+   li .forget_psd{
+     float: right;
+   }
+  }
+  .remember-me{
+    margin-right: 3px;
+    vertical-align: -2px;
+  }
+  li.go2register{
+    margin-bottom: 20px;
+    input{
+      width: 100%;
+      padding: 15px 0;
+      height: 48px;
+      text-align: center;
+      font-size: 18px;
+      cursor: pointer;
+      line-height: 22px;
+      border: 1px solid #fa0;
+      border-radius: 3px;
+      color: #fff;
+      background-color: #ff6a00;
+      &:hover{
+        opacity: .6;
+      }
+    }
+  }
+}
+
+.other-login-tit {
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+}
+.other-login{
+  a{
+    margin-top: 0;
+    vertical-align: top;
+    margin-right: 20px;
+    background: url(../img/images/other-login-bg.png) center no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    &:hover{
+      opacity: .7;
+    }
+  }
+  a.qq{
+    background-position: -40px 0;
+  }
+  a.sina{
+    background-position: 0 0;
+  }
+}
+
+.register_no {
+  width: 600px;
+  height: 200px;
+  line-height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 24px;
+}
